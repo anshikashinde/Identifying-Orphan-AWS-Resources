@@ -1,4 +1,6 @@
-# Summer Internship 2023
+# Identification & Visualisation of Orphan AWS Resources
+
+
 
 ## Project Title
 Identification & Visualisation of Orphan AWS Resources
