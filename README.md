@@ -1,10 +1,6 @@
 # Identification & Visualisation of Orphan AWS Resources
 
 
-
-## Project Title
-Identification & Visualisation of Orphan AWS Resources
-
 ## Description
 This is a python script to identify orphan EC2, Volumes, RDS, Elastic Load Balancers & EIPs in a AWS region.
 It alanyzes the CloudWatch metrics to classify resources as orphan & adds them to a CSV and excel file.
