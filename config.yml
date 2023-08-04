@@ -1,0 +1,46 @@
+---
+#region
+region_name: us-east-1
+
+profiles:
+  - default
+
+#volume
+threshold1: 60
+threshold2: 100
+
+#ec2 threshold
+diskReadOps: 0
+diskWriteOps: 0
+cpu_utilisation_threshold: 1
+diskReadBytes: 0
+diskWriteBytes: 0
+min_statusCheckFailed: 3
+
+#rds
+threshold_days: 30
+dbconnections_threshold: 0
+readLatency_threshold: 0.002
+writeLatency_threshold: 0.012
+freeableMem_threshold: 271000000
+freeStorage_threhsold: 20000000000
+cpuSurplus_threshold: 0
+burstBalance_threshold: 100
+ebsIOBalance_threshold: 100
+ebsByteBalance_threshold: 100
+
+#elbs
+healthyHostCount_threshold: 0
+requestCount_threshold: 500
+
+
+  
+  
+
+
+
+
+
+
+
+  
